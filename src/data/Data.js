@@ -1,0 +1,1 @@
+export const projectShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae ullamcorper orci. Sed eleifend posuere tempus. Aenean turpis leo, rutrum quis odio et ";

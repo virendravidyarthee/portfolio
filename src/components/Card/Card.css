@@ -1,0 +1,19 @@
+.Card{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background: #3F3F3F3F;
+    border-radius: 2px;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    box-shadow: 0 1px 10px 1px rgba(255, 235, 59, 0.30);
+}
+
+@media screen and (max-width: 680px) {
+    .Card{
+        display: flex;
+        flex-direction: column;
+        flex:1;
+    }
+}

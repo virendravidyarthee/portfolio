@@ -1,29 +1,19 @@
 import React, {Component} from 'react';
-import Particles from 'react-particles-js';
 import './App.css';
+import Home from "./containers/Home/Home";
+import MyWork from "./containers/MyWork/MyWork"
+import {BrowserRouter} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <Particles className="Particles"
-                           canvasClassName="Particles-canvas"
-                           params={{
-                               "particles": {
-                                   "number": {
-                                       "value": 40
-                                   }
-                               }
-                           }}/>
-                <div className="Content-container">
-                    <div>
-                        <p className="Name-header">Hi, I'm Virendra.</p>
-                        <p className="Sub-title-one">Android Enthusiast.</p>
-                        <p className="Sub-title-two">Full stack developer.</p>
-                    </div>
+            <BrowserRouter>
+                <div className="App">
+                    <Route path='/' exact component={Home}/>
+                    <Route path='/my-work' exact component={MyWork}/>
                 </div>
-
-            </div>
+            </BrowserRouter>
         );
     }
 }
