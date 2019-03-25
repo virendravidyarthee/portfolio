@@ -14,7 +14,7 @@ const Grid = (props) => {
             <img src={value.image}
                  className="image"
                  alt=""/>
-            <p className="Text">{value.description}</p>
+            <p className="Text">{value.shortDescription}</p>
         </Card>)
     });
 
@@ -34,7 +34,7 @@ const Grid = (props) => {
 
 
     return (
-        <div>
+        <div className={props.className}>
             {rows}
         </div>
     )

@@ -1,1 +1,13 @@
+.Header{
+    text-align: center;
+}
 
+.Sub-title{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Grid-container{
+    margin-top: 200px;
+}
