@@ -5,7 +5,7 @@
 .Content-container {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 70px;
     height: 100%;
     width: 100%;
     display: flex;
@@ -32,7 +32,8 @@
 }
 
 .Particles {
-    width: 100%;
+    display: flex;
+    flex: 1;
     height: 99%;
 }
 

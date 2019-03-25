@@ -18,3 +18,7 @@ export const myWorkArray = [
     {projectName: "Project Name",image: projectPlaceholder, shortDescription: projectShortDescription, fullDescription: projectFullDescription},
     {projectName: "Project Name",image: projectPlaceholder, shortDescription: projectShortDescription, fullDescription: projectFullDescription}
 ];
+
+export const aboutMe = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et vehicula erat. Nunc at consectetur tortor. Ut magna ligula, tristique in faucibus ultrices, vehicula at mi. Maecenas quis massa nulla. Curabitur consequat mi orci, vitae cursus tellus sodales ut. Cras interdum nisl vitae mi tempus sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas lacus lectus, rutrum vel orci sed, congue sodales dui. Ut imperdiet in magna vitae feugiat.\n" +
+    "\n" +
+    "Sed faucibus nunc nec eros convallis, eget porta lacus rutrum. Proin eget nunc ullamcorper, tempus justo id, posuere nibh. Donec vel tincidunt nisi. Integer in leo feugiat, gravida elit molestie, volutpat mi. Phasellus congue tortor ligula, vel laoreet dui dapibus et. Duis non rhoncus mi. Donec rhoncus massa eu finibus tincidunt. Fusce aliquam fermentum purus ut semper. Suspendisse elementum et justo eu accumsan. Sed scelerisque orci ac ornare congue. Sed at lorem tempus, mollis augue vitae, semper neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;"
