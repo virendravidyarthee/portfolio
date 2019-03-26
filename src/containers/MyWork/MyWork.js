@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import './MyWork.css'
-import Grid from "../../components/Grid/Grid";
 import {myWorkSubtitle} from "../../data/Data";
+import List from "../../components/List/List";
+
 let myWorkArray = require("../../data/Data.js").myWorkArray;
 
 class MyWork extends Component {
@@ -14,7 +15,8 @@ class MyWork extends Component {
     render() {
         return (
             <div style={{
-                backgroundColor: '#212121'
+                width: '100%',
+                overflowY:'scroll'
             }}>
                 <div className="Header">
                     <h1>Development Portfolio</h1>
@@ -23,10 +25,11 @@ class MyWork extends Component {
                 <div className="Sub-title">
                     <p>{myWorkSubtitle}</p>
                 </div>
-                <Grid
-                    className="Grid-container"
+                <List
+                    className="List-container"
                     dataSource={myWorkArray}
-                    onClickHandler={this.onItemClick}
+                    imgClassName="List-image"
+                    textClassName="List-text"
                 />
             </div>
         );

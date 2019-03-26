@@ -1,0 +1,76 @@
+.Sidebar-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    background-color: #121212;
+}
+
+.Items-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Item{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: visible;
+    cursor: pointer;
+}
+
+.Item:hover .Item-image{
+    opacity: 0;
+}
+
+.Item:hover .Item-text{
+    opacity: 1;
+}
+
+.Item:hover .Item-text-home{
+    opacity: 1;
+}
+
+.Item-image{
+    width: 100%;
+    height: 100%;
+}
+.Item-text-home{
+    position: absolute;
+    color: #ffcd00;
+    font-size: 10px;
+    z-index: 1;
+    top: 0;
+    opacity: 0;
+    white-space: nowrap;
+    font-family: Lato, sans-serif;
+
+}
+
+.Item-text{
+    position: absolute;
+    color: #ffcd00;
+    font-size: 10px;
+    z-index: 1;
+    top: 0;
+    left: -10px;
+    opacity: 0;
+    white-space: nowrap;
+    font-family: Lato, sans-serif;
+
+}
+
+.Logo{
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
