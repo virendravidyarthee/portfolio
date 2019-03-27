@@ -2,7 +2,7 @@ import projectPlaceholder from "../assets/images/start-up.png";
 
 export const projectShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae ullamcorper orci. Sed eleifend posuere tempus. Aenean turpis leo, rutrum quis odio et ";
 
-export const myWorkSubtitle = "Here, you can find a collection of all the projects that I have worked on. These include Android, React and Angular projects.";
+export const myWorkSubtitle = "Here, you can find a collection of all the projects that I have worked on.\nThese include Android, React and Angular projects.";
 
 export const projectFullDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nunc sed diam varius feugiat. Suspendisse feugiat tincidunt elementum. Phasellus euismod, lorem in congue ultricies, quam nibh posuere quam, ut tristique enim justo vitae augue. Proin posuere aliquam metus sed aliquam. Quisque mauris metus, volutpat non lorem et, suscipit tempus leo. Ut accumsan, felis id elementum hendrerit, elit urna tempor tortor, ut semper turpis urna et tortor. Donec leo augue, ullamcorper sed luctus eget, convallis nec ex.\n" +
     "\n" +

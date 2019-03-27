@@ -51,7 +51,7 @@ class Sidebar extends Component {
                     </div>
                     <div className="Item"
                          onClick={() => {
-                             this.props.history.push('my-work')
+                             this.props.history.push('/my-work')
                          }}>
                         <img
                             className="Item-image"
@@ -62,7 +62,7 @@ class Sidebar extends Component {
                     <div
                         className="Item"
                         onClick={() => {
-                            this.props.history.push('/')
+                            this.props.history.push('/contact-me')
                         }}>
                         <img
                             className="Item-image"

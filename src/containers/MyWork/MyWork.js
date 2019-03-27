@@ -30,6 +30,7 @@ class MyWork extends Component {
                     dataSource={myWorkArray}
                     imgClassName="List-image"
                     textClassName="List-text"
+                    onClickHandler={this.onItemClick}
                 />
             </div>
         );

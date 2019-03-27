@@ -14,14 +14,34 @@ const List = (props) => {
             separatorClassName = "Separator-reversed";
         }
         return (
-            <div key={index}>
+            <div
+                key={index}
+                onClick={() =>{
+                    props.onClickHandler(index)
+                }}>
                 <div className={separatorClassName}/>
                 <div className={contentClassName}>
                     <img
+                        style={{
+                            width:'250px',
+                            objectFit:'cover'
+                        }}
                         className={imageClassName}
                         src="https://cdn-images-1.medium.com/max/1000/1*bIUXCGYsVTXyBndd4suLfA.png"
                         alt=""/>
-                    <p className={props.textClassName}>{value.shortDescription}</p>
+                    <div
+                        style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            width:'100%'
+                        }}>
+                        <p style={{
+                            fontSize: '22px',
+                            textAlign:'center'
+                        }}>{value.projectName}</p>
+                        <p className={props.textClassName}>{value.shortDescription}</p>
+                    </div>
                 </div>
             </div>
         )
@@ -37,13 +57,16 @@ const List = (props) => {
 List.propTypes = {
     className: PropTypes.string,
     textClassName: PropTypes.string,
-    dataSource: PropTypes.array
+    dataSource: PropTypes.array,
+    onClickHandler: PropTypes.func
 };
 
 List.defaultProps = {
     className: "",
     textClassName: "",
-    dataSource: []
+    dataSource: [],
+    onClickHandler: () => {
+    }
 };
 
 export default List;
