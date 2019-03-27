@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9657c846-1b74-4130-80f8-ee95888f4450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/List.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/List.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MyWork/MyWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MyWork/MyWork.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MyWork/MyWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MyWork/MyWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -111,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="64">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -360,15 +347,16 @@
       <workItem from="1553240534079" duration="8387000" />
       <workItem from="1553405824368" duration="14979000" />
       <workItem from="1553493780878" duration="52578000" />
-      <workItem from="1553683796627" duration="6801000" />
+      <workItem from="1553683796627" duration="7263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156260000" />
+    <option name="totallyTimeSpent" value="156722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -816,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="64">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
