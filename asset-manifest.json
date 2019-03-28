@@ -1,16 +1,20 @@
 {
-  "main.css": "/portfolio/static/css/main.48bf59b4.chunk.css",
-  "main.js": "/portfolio/static/js/main.03fca7f4.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.03fca7f4.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.3a8e721b.chunk.css",
+  "main.js": "/portfolio/static/js/main.db3ce0c3.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.db3ce0c3.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.0fad4c0f.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.0fad4c0f.js.map",
-  "static/js/2.fa06286c.chunk.js": "/portfolio/static/js/2.fa06286c.chunk.js",
-  "static/js/2.fa06286c.chunk.js.map": "/portfolio/static/js/2.fa06286c.chunk.js.map",
+  "static/js/2.23e9e78d.chunk.js": "/portfolio/static/js/2.23e9e78d.chunk.js",
+  "static/js/2.23e9e78d.chunk.js.map": "/portfolio/static/js/2.23e9e78d.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.bafb97d98bd95f8a76f2011eb7055e2d.js": "/portfolio/precache-manifest.bafb97d98bd95f8a76f2011eb7055e2d.js",
+  "precache-manifest.7e12a3ea6e7ba741135d948c70eaf882.js": "/portfolio/precache-manifest.7e12a3ea6e7ba741135d948c70eaf882.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.48bf59b4.chunk.css.map": "/portfolio/static/css/main.48bf59b4.chunk.css.map",
+  "static/css/main.3a8e721b.chunk.css.map": "/portfolio/static/css/main.3a8e721b.chunk.css.map",
   "static/media/LinkedIn.png": "/portfolio/static/media/LinkedIn.fde06245.png",
+  "static/media/ccu.png": "/portfolio/static/media/ccu.2aa05e6b.png",
+  "static/media/extraaedge.png": "/portfolio/static/media/extraaedge.8222f6b4.png",
   "static/media/github.png": "/portfolio/static/media/github.b87ac65a.png",
-  "static/media/gmail.png": "/portfolio/static/media/gmail.2ad00102.png"
+  "static/media/gmail.png": "/portfolio/static/media/gmail.2ad00102.png",
+  "static/media/haritpath.png": "/portfolio/static/media/haritpath.c57a6919.png",
+  "static/media/ideal10.png": "/portfolio/static/media/ideal10.a1720900.png"
 }
