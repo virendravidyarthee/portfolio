@@ -23,11 +23,11 @@ const List = (props) => {
                 <div className={contentClassName}>
                     <img
                         style={{
-                            width:'250px',
-                            objectFit:'cover'
+                            minWidth:'180px',
+                            width:'180px'
                         }}
                         className={imageClassName}
-                        src="https://cdn-images-1.medium.com/max/1000/1*bIUXCGYsVTXyBndd4suLfA.png"
+                        src={value.image}
                         alt=""/>
                     <div
                         style={{
@@ -37,6 +37,7 @@ const List = (props) => {
                             width:'100%'
                         }}>
                         <p style={{
+                            marginBottom: '0px',
                             fontSize: '22px',
                             textAlign:'center'
                         }}>{value.projectName}</p>

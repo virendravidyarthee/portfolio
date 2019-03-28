@@ -19,11 +19,14 @@ class MyWork extends Component {
                 overflowY:'scroll'
             }}>
                 <div className="Header">
-                    <h1>Development Portfolio</h1>
+                    <h1>My Projects</h1>
                 </div>
 
                 <div className="Sub-title">
                     <p>{myWorkSubtitle}</p>
+                </div>
+                <div className="mouse">
+                    <span/>
                 </div>
                 <List
                     className="List-container"

@@ -6,7 +6,9 @@
     align-items: center;
 }
 
-.Slider {
+.Full-Logo {
+    display: flex;
+    justify-content: center;
     width: 50vw;
     height: auto;
 }
@@ -42,7 +44,8 @@
 }
 
 .Link{
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    color: #CACACA;
 }

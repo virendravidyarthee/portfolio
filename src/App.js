@@ -10,6 +10,11 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import ContactMe from "./containers/ContactMe/ContactMe";
 
 class App extends Component {
+
+    componentDidMount() {
+        document.title = "Virendra Vidyarthee"
+    }
+
     render() {
         return (
             <HashRouter>

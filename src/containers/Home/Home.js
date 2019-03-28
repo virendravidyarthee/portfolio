@@ -19,6 +19,16 @@ class Home extends Component {
                     </div>
                     <div className="Link-container">
                         <Link
+                            to='/about-me'
+                            className="My-work-link">
+                            <div className="Link-content">
+                                <p>Get to know me</p>
+                                <img className="Right-arrow" src={arrow} alt=""/>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="Link-container">
+                        <Link
                             to='/my-work'
                             className="My-work-link">
                             <div className="Link-content">

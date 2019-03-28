@@ -53,7 +53,7 @@ class ContactMe extends Component {
                                 src={gmailLogo}
                                 alt=""/></a>
                         <a
-                            href="https://upwork.com"
+                            href="https://www.upwork.com/o/profiles/users/_~01164e795fbcd3a2aa/"
                             target="_blank"
                             rel="noopener noreferrer">
                             <img

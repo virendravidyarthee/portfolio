@@ -12,7 +12,7 @@ class AboutMe extends Component {
                     className="My-logo"
                     src={logo}
                     alt=""/>
-                <div><h1>About me</h1></div>
+                <div><h1>About me - a history lesson</h1></div>
                 <div>
                     <p className="About-container">{aboutMe}</p>
                 </div>
