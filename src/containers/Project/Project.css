@@ -1,7 +1,8 @@
 .Project {
     display: flex;
     height: 100%;
-    overflow: auto;
+    width: 100%;
+    overflow-y: scroll;
     flex-direction: column;
     align-items: center;
 }

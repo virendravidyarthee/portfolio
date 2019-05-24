@@ -45,6 +45,20 @@ const idealFullDescription = "Ideal10 is a study companion app that allows grade
     "The project does include pretty eye catchy and animations and being a content delivery system, strong emphasis was put on the UX part of the app.\n" +
     "The app also included a pretty interesting take on offline data persistence using Room and RxJava.";
 
+const haritpathMobileFullDescription = "Haritpath was one of my first Android projects at a service based companies. I had used Realm database along with RxJava to implement this solution (Along with the usual array of dependencies like Retrofit and others). The app was a survey helper for a company working with the National Highways Authority of India The app was used by the the clients employees to keep a track of tree plantations on Indian Highways. Before the development of Haritpath mobile, the surveyors used to keep a track of tree information on a physical register, maintaining which was getting cumbersome for them. Thus the app helped the surveyors further extend their note keeping by providing functionalities like Tree live photo upload and survey data upload location tracking.\n" +
+    "Live location tracking was probably the most important feature of the application as a survey data with a live location ensured data authenticity. The app is currently being used in production by Haritpath Pvt. Ltd. on the highways of Maharashtra with over 50,000 trees being tracked in a span of 6 months on an average.";
+
+const haritpathWebFullDescription = "Harithpath web is the web counterpart of the Harithpath mobile application. (The name gives it all away)\n" +
+    "This project was built entirely in Angular 6 and is used to monitor the data uploaded from the mobile app. The website can only be accessed by the admins and managers at Haritpath (The client). \n" +
+    "The features included in this website are:\n" +
+    "- Basic login functionalities.\n" +
+    "- Granting surveyor access.\n" +
+    "- Monitoring individual surveyor data.\n" +
+    "- Maps integration to track their surveyors and trees.\n" +
+    "- Google cloud storage\n" +
+    "- Complete highway wise statistics with graphical representations of data (Charting). \n" +
+    "A very challenging aspect of this project was the actual data analysis and subsequent representation of the data on a graph.";
+
 export const myWorkArray = [
     {
         projectName: "ExtraaEdge",
@@ -72,7 +86,7 @@ export const myWorkArray = [
         projectName: "Haritpath App",
         image: haritpathLogo,
         shortDescription: haritpathMobileShortDescription,
-        fullDescription: projectFullDescription,
+        fullDescription: haritpathMobileFullDescription,
         siteLink: 'http://www.haritpath.com/',
         appLink: 'https://play.google.com/store/apps/details?id=com.tadnyasoftech.haritpathapp'
     },
@@ -80,7 +94,7 @@ export const myWorkArray = [
         projectName: "Haritpath web",
         image: haritpathLogo,
         shortDescription: haritpathWebShortDescription,
-        fullDescription: projectFullDescription,
+        fullDescription: haritpathWebFullDescription,
         siteLink: 'http://www.haritpath.com/',
         appLink: 'http://app.haritpath.com/'
     }

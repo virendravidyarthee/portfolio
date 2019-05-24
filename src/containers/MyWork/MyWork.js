@@ -17,7 +17,7 @@ class MyWork extends Component {
             <div style={{
                 width: '100%',
                 height:'100%',
-                overflow:'scroll'
+                overflowY:'scroll'
             }}>
                 <p className="Header">My Projects</p>
 
