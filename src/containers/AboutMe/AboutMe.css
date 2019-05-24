@@ -16,11 +16,62 @@
     width: 50%;
 }
 
-.Showcase-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 50%;
+.Title{
+    text-align: center;
+    font-size: 32px;
 }
 
+.My-logo-about-me{
+    position: absolute;
+    right: 50px;
+    top: 40%;
+    opacity: 0.6;
+    transform: rotate(25deg);
+    width: 180px;
+    height: 180px;
+}
+
+@media screen and (max-width: 680px) {
+
+    .Container{
+        flex-direction: row;
+    }
+
+    .My-logo-about-me{
+        visibility: hidden;
+    }
+
+    .Title{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .About-container{
+        display: inline-block;
+        text-justify:inter-word;
+        -ms-text-justify: inter-word;
+        text-align: justify;
+        white-space: pre-line;
+        width: 92%;
+        font-size: 12px;
+    }
+
+    .Container{
+        padding-bottom: 300px;
+        overflow: scroll;
+    }
+
+    .My-logo{
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-height: 550px){
+    .Container{
+        padding-bottom: 20px;
+        overflow: scroll;
+    }
+}

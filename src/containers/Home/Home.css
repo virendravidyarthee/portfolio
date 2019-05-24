@@ -62,3 +62,33 @@
     align-items: center;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 680px) {
+    .Content-container {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Name-header {
+        font-size: 30px;
+    }
+
+    .Sub-title-one {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .Sub-title-two {
+        font-size: 13px;
+    }
+
+    .Link-content{
+        font-size: 10px;
+    }
+}

@@ -311,3 +311,9 @@ $d: 140px;
     width: 100%;
     text-align: center;
 }
+
+@media screen and (max-height: 550px){
+  .bb8{
+    visibility: hidden;
+  }
+}

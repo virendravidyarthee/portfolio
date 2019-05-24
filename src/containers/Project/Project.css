@@ -49,3 +49,13 @@
     margin-right: auto;
     color: #CACACA;
 }
+
+@media screen and (max-width: 680px){
+    .Description-container {
+        width: 90%;
+    }
+
+    .Full-description{
+        font-size: 13px;
+    }
+}

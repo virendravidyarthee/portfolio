@@ -12,10 +12,13 @@ class ContactMe extends Component {
     render() {
         return (
             <div className='Contact-me-container'>
-                <h1>Wanna get in touch?</h1>
+                <p
+                    className="Title">Wanna get in touch?</p>
                 <div>
-                    <p>You can find me on one of the links below.</p>
-                    <p>Drop me a mail, I'm always a quick responder.</p>
+                    <p
+                        className="Contact-me-content">You can find me on one of the links below.</p>
+                    <p
+                        className="Contact-me-content">Drop me a mail, I'm always a quick responder.</p>
                 </div>
 
                 <div className="Center-content">
@@ -64,7 +67,8 @@ class ContactMe extends Component {
                                 src={upworkLogo}
                                 alt=""/></a>
                     </div>
-                    <p>If you're looking for a CV, you can just look at my LinkedIn profile. It's always updated.</p>
+                    <p
+                        className="Contact-me-content-bottom">If you're looking for a CV, you can just look at my LinkedIn profile. It's always updated.</p>
                 </div>
                 <img
                     className="My-logo"

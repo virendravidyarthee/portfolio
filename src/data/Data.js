@@ -73,9 +73,9 @@ export const aboutMe = "2008 - Wrote my first ever program in QBASIC. I was 13.\
     "2013 - Got back into programming. Started with C and fell in love with the power of C++.\n" +
     "2014 - Started my software engineering bachelors from the Nottingham Trent University, UK.\n" +
     "2015 - Created a physics engine for simulating oscillations in C++ using the SDL library for graphics.\n" +
-    "2016 - Made my first ever production ready website in plan HTML/CSS.\n" +
+    "2016 - Made my first ever production ready website in plain HTML/CSS.\n" +
     "2016 - Became an unofficial java teaching assistant in my class.\n" +
-    "2016 - Created my first ever QT project. (I know, people don’t use it much. But I think that it’s underappreciated)\n" +
+    "2016 - Created my first ever QT project. (I know, people don’t use it much. But I think that it’s under-appreciated)\n" +
     "2017 - Wrote my first ever android app.\n" +
     "2017 - Created a mathematical symbolic computational engine in java.\n" +
     "2017 - Graduated.\n" +

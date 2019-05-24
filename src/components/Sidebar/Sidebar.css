@@ -74,3 +74,22 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 680px) {
+    .Items-container{
+        flex-direction: row;
+    }
+
+    .Sidebar-container{
+        flex-direction: column;
+    }
+
+    .Item{
+        margin-top: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .Logo{
+        visibility: hidden;
+    }
+}

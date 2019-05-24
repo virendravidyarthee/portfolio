@@ -16,11 +16,10 @@ class MyWork extends Component {
         return (
             <div style={{
                 width: '100%',
-                overflowY:'scroll'
+                height:'100%',
+                overflow:'scroll'
             }}>
-                <div className="Header">
-                    <h1>My Projects</h1>
-                </div>
+                <p className="Header">My Projects</p>
 
                 <div className="Sub-title">
                     <p>{myWorkSubtitle}</p>

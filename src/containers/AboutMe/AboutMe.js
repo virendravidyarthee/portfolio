@@ -9,15 +9,17 @@ class AboutMe extends Component {
         return (
             <div className="Container">
                 <img
-                    className="My-logo"
+                    className="My-logo-about-me"
                     src={logo}
                     alt=""/>
-                <div><h1>About me - a history lesson</h1></div>
+                    <p
+                        className="Title">
+                        About me - a history lesson</p>
                 <div>
                     <p className="About-container">{aboutMe}</p>
                 </div>
 
-                <BBAnimation/>
+                <BBAnimation />
             </div>
         )
     }

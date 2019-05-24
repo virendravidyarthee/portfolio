@@ -1,5 +1,6 @@
 .Header {
     text-align: center;
+    font-size: 32px;
 }
 
 .Sub-title {
@@ -68,4 +69,28 @@
         -ms-transform: translateY(20px);
         transform: translateY(20px);
     }
+}
+
+@media screen and (max-width: 680px){
+    .Header {
+        font-size: 20px;
+    }
+
+    .Sub-title {
+        text-align: center;
+        font-size: 12px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10px;
+        white-space: pre-line;
+    }
+
+
+    .List-text {
+        text-align: justify;
+        font-size: 11px;
+        margin: auto 0;
+    }
+
+
 }
