@@ -10,8 +10,7 @@
 
 .About-container{
     display: inline-block;
-    text-justify:inter-word;
-    text-align: justify;
+    text-align: left;
     white-space: pre-line;
     width: 50%;
 }
@@ -50,9 +49,7 @@
 
     .About-container{
         display: inline-block;
-        text-justify:inter-word;
-        -ms-text-justify: inter-word;
-        text-align: justify;
+        text-align: left;
         white-space: pre-line;
         width: 92%;
         font-size: 12px;
