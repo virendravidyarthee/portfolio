@@ -72,8 +72,8 @@ const particleParams = {
         "detect_on": "window",
         "events": {
             "onhover": {
-                "enable": false,
-                "mode": "repulse"
+                "enable": true,
+                "mode": "grab"
             },
             "onclick": {
                 "enable": true,

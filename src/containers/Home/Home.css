@@ -1,7 +1,8 @@
-.Home{
+.Home {
     width: 100%;
     height: 100%;
 }
+
 .Content-container {
     position: absolute;
     top: 0;
@@ -32,9 +33,16 @@
 }
 
 .Particles {
-    display: flex;
-    flex: 1;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
     height: 99%;
+    flex: 1;
 }
 
 .My-work-link {
@@ -52,12 +60,12 @@
     margin-top: 5px;
 }
 
-.Link-container{
+.Link-container {
     text-align: center;
 }
 
-.Link-content{
-    display:flex;
+.Link-content {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -88,7 +96,7 @@
         font-size: 13px;
     }
 
-    .Link-content{
+    .Link-content {
         font-size: 10px;
     }
 }
