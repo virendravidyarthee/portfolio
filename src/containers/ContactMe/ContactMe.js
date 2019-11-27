@@ -18,7 +18,7 @@ class ContactMe extends Component {
                     <p
                         className="Contact-me-content">You can find me on one of the links below.</p>
                     <p
-                        className="Contact-me-content">Drop me a mail, I'm always a quick responder.</p>
+                        className="Contact-me-content">Drop me a mail, I'm always a quick responder. Click on the Gmail icon.</p>
                 </div>
 
                 <div className="Center-content">

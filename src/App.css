@@ -23,12 +23,16 @@
 
 @media screen and (max-width: 680px) {
     .App {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .Sidebar{
         width: 100%;
         height: 60px;
+    }
+
+    .Content{
+        overflow-y: scroll;
     }
 }
 

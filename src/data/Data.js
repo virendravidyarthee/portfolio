@@ -1,21 +1,43 @@
-import ccuLogo from "../assets/images/project_logos/ccu.png"
 import eeLogo from "../assets/images/project_logos/extraaedge.png"
-import haritpathLogo from "../assets/images/project_logos/haritpath.png"
 import idealLogo from "../assets/images/project_logos/ideal10.png"
+import qbasic from "../assets/images/qbasic.png"
+import ntu from "../assets/images/ntu.png"
+import sdl from "../assets/images/sdl.png"
+import cpp from "../assets/images/cpp.png"
+import htmlcss from "../assets/images/htmlcss.png"
+import boloGlobalLogo from "../assets/images/bolo_global_logo.png"
+import otScreen1 from "../assets/images/otScreens/sc1.png"
+import otScreen2 from "../assets/images/otScreens/sc2.png"
+import otScreen3 from "../assets/images/otScreens/sc3.png"
+import otScreen4 from "../assets/images/otScreens/video call.png"
+import eeScreen1 from "../assets/images/eeScreens/sc1.png"
+import eeScreen2 from "../assets/images/eeScreens/sc2.png"
+import eeScreen3 from "../assets/images/eeScreens/sc3.png"
+import eeScreen4 from "../assets/images/eeScreens/sc4.png"
+import idealScreen1 from "../assets/images/idealScreens/1.png"
+import idealScreen2 from "../assets/images/idealScreens/2.png"
+import idealScreen3 from "../assets/images/idealScreens/3.png"
+import eeCover from "../assets/images/eecover.png"
+import idealCover from "../assets/images/idealCover.png"
+import otCover from "../assets/images/otCover.png"
 
-const eeShortDescription = "ExtraaEdge is a leads management software which helps academic institutions boost their admissions. I had contributions towards their android app and built a lot major feature sets like analytics, locations, adding of leads, lead info, etc.";
-
+const eeShortDescription = "ExtraaEdge is a leads management software which helps academic institutions boost their admissions. I had contributions towards their android app and built a lot of major feature sets like analytics, locations, adding of leads, lead info, etc.";
+// eslint-disable-next-line
 const btSerialShortDescription = "This was a very abstract project by one of our clients who mostly didn’t share the use cases and business logic with us. All in all, it was an app that was used for serial port communication via bluetooth. All the commands and low level hardware based functionality was masked by a user friendly GUI.";
 
-const haritpathMobileShortDescription = "Haritpath is a firm which handles the maintenance and survey of all the trees planted around highways. The haritpath mobile app lets their surveyors create a digital tree log along with location and photographic data and lets them upload it all to a dedicated server. ";
+const boloGlobalShortDescription = "Bolo.Global is a video calling platform for a very specific goal. Conducting interviews. Group video calling is the core functionality of this app and other features included text based chat and call recordings.";
 
+const boloGlobalFullDescription = "";
+// eslint-disable-next-line
+const haritpathMobileShortDescription = "Haritpath is a firm which handles the maintenance and survey of all the trees planted around highways. The haritpath mobile app lets their surveyors create a digital tree log along with location and photographic data and lets them upload it all to a dedicated server. ";
+// eslint-disable-next-line
 const haritpathWebShortDescription = "Same as above but the web counterpart of the platform which is used to review and document the data uploaded by the surveyors.";
 
 const idealShortDescription = "Ideal 10 is the study companion app published by ideal publications for their 10th standard students. This app makes their entire syllabus available to the mobile platform. Data is always updated as it fetched constantly from the web. Supports offline functionality as well.";
 
 export const myWorkSubtitle = "Working at a service based company allowed me to work on numerous projects. I’m not going to list all of them here, but I’ll list a few interesting/challenging ones. All of these are enterprise apps so they aren’t available to the general public and even if they are, the credentials to use them won’t be. But hey, if you can pull some strings with the right companies and have some time then feel free to run them on your own device.\n\n" +
     "Here you can see that I do have experience with Android, Node and Angular projects. There’s one more project that you can look at apart from the ones listed below. That is the website that you’re currently browsing. It’s built with react and is fully responsive.\n\n" +
-    "Disclaimer: I developed these projects while working for a company, so I am in no way trying to say that I have full ownership (legally and ethically, I can’t say that) of the said projects. I am merely stating the fact that I have made contributions to these projects. Which is a fair point.\n"+
+    "Disclaimer: I developed these projects while working for a company, so I am in no way trying to say that I have full ownership (legally and ethically, I can’t say that) of the said projects. I am merely stating the fact that I have made contributions to these projects. Which is a fair point.\n" +
     "Most of the projects listed here are enterprise (some require a fee to get access to) apps and websites. If you want to gain access to or see a demo of the apps, you need to contact either me or one of these service providers.";
 
 export const projectFullDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nunc sed diam varius feugiat. Suspendisse feugiat tincidunt elementum. Phasellus euismod, lorem in congue ultricies, quam nibh posuere quam, ut tristique enim justo vitae augue. Proin posuere aliquam metus sed aliquam. Quisque mauris metus, volutpat non lorem et, suscipit tempus leo. Ut accumsan, felis id elementum hendrerit, elit urna tempor tortor, ut semper turpis urna et tortor. Donec leo augue, ullamcorper sed luctus eget, convallis nec ex.\n" +
@@ -37,6 +59,7 @@ const eeFullDescription = "There used to be a time when ExtraaEdge used to be av
     "\n" +
     "Their full solution included a web app and Android and iOS apps. Where I was the incharge of developing and maintaining the Android and iOS apps. The project was very challenging as the app was heavily customisable and dynamic for specific counselors or institutions. A lot of dynamic layouts were employed for the specific client use cases. The most challenging part however was maintaining and extending the thousands of lines of legacy code behind the application.\n";
 
+// eslint-disable-next-line
 const btSerialFullDescription = "Internally called Central Control Unit (CCU) is borderline IoT based project where a mobile device or a tablet is used to send and receive serial commands via Bluetooth and control a group of machines. The app is a strict enterprise app and access is granted only to the clients of the owning authorities.\n" +
     "This app is designed for factory settings where it can be used to control a group of industrial printers with all sorts of commands ranging from daily operations to self testing. The app masks all the hardware level commands with a modern GUI where the user doesn’t have to worry about entering the right and often tedious serial port commands. It is also to be noted that the app was made to be modular from the very get go. As the app’s functionality was also later modified to be able to work with a school PA system with bluetooth speakers.\n" +
     "The most tedious part of development in this project was the actual bluetooth interface and how to gracefully handle exceptions. Another area where keen observations were required was being able to handle the analog bluetooth devices that would be paired with the phone. They tend to throw a lot of exceptions when the app is trying to establish communications with them.\n";
@@ -44,10 +67,10 @@ const btSerialFullDescription = "Internally called Central Control Unit (CCU) is
 const idealFullDescription = "Ideal10 is a study companion app that allows grade 10 students in India to keep a copy of their syllabi in their smartphones. It is a fairly simple app with login and content delivery functionalities. The app is developed in association with Ideal Publications Inc. \n" +
     "The project does include pretty eye catchy and animations and being a content delivery system, strong emphasis was put on the UX part of the app.\n" +
     "The app also included a pretty interesting take on offline data persistence using Room and RxJava.";
-
+// eslint-disable-next-line
 const haritpathMobileFullDescription = "Haritpath was one of my first Android projects at a service based companies. I had used Realm database along with RxJava to implement this solution (Along with the usual array of dependencies like Retrofit and others). The app was a survey helper for a company working with the National Highways Authority of India The app was used by the the clients employees to keep a track of tree plantations on Indian Highways. Before the development of Haritpath mobile, the surveyors used to keep a track of tree information on a physical register, maintaining which was getting cumbersome for them. Thus the app helped the surveyors further extend their note keeping by providing functionalities like Tree live photo upload and survey data upload location tracking.\n" +
     "Live location tracking was probably the most important feature of the application as a survey data with a live location ensured data authenticity. The app is currently being used in production by Haritpath Pvt. Ltd. on the highways of Maharashtra with over 50,000 trees being tracked in a span of 6 months on an average.";
-
+// eslint-disable-next-line
 const haritpathWebFullDescription = "Harithpath web is the web counterpart of the Harithpath mobile application. (The name gives it all away)\n" +
     "This project was built entirely in Angular 6 and is used to monitor the data uploaded from the mobile app. The website can only be accessed by the admins and managers at Haritpath (The client). \n" +
     "The features included in this website are:\n" +
@@ -66,13 +89,18 @@ export const myWorkArray = [
         shortDescription: eeShortDescription,
         fullDescription: eeFullDescription,
         siteLink: 'https://www.extraaedge.com/product/',
-        appLink: 'https://install.appcenter.ms/users/extraaedgebizspark/apps/extraaedge-sales-marketing-client-live/distribution_groups/external%20tester'
+        appLink: 'https://install.appcenter.ms/users/extraaedgebizspark/apps/extraaedge-sales-marketing-client-live/distribution_groups/external%20tester',
+        images: [eeScreen1, eeScreen2, eeScreen3, eeScreen4],
+        cover: eeCover
     },
     {
-        projectName: "Bluetooth serial",
-        image: ccuLogo,
-        shortDescription: btSerialShortDescription,
-        fullDescription: btSerialFullDescription
+        projectName: "bolo.global",
+        image: boloGlobalLogo,
+        shortDescription: boloGlobalShortDescription,
+        fullDescription: boloGlobalFullDescription,
+        siteLink: 'https://www.officetroops.com/',
+        images: [otScreen4, otScreen3, otScreen1, otScreen2],
+        cover: otCover
     },
     {
         projectName: "Ideal10",
@@ -80,31 +108,129 @@ export const myWorkArray = [
         shortDescription: idealShortDescription,
         fullDescription: idealFullDescription,
         siteLink: null,
-        appLink: 'https://play.google.com/store/apps/details?id=in.ideal10.android'
-    },
-    {
-        projectName: "Haritpath App",
-        image: haritpathLogo,
-        shortDescription: haritpathMobileShortDescription,
-        fullDescription: haritpathMobileFullDescription,
-        siteLink: 'http://www.haritpath.com/',
-        appLink: 'https://play.google.com/store/apps/details?id=com.tadnyasoftech.haritpathapp'
-    },
-    {
-        projectName: "Haritpath web",
-        image: haritpathLogo,
-        shortDescription: haritpathWebShortDescription,
-        fullDescription: haritpathWebFullDescription,
-        siteLink: 'http://www.haritpath.com/',
-        appLink: 'http://app.haritpath.com/'
+        appLink: 'https://play.google.com/store/apps/details?id=in.ideal10.android',
+        images: [idealScreen1, idealScreen2, idealScreen3],
+        cover: idealCover
     }
 
 
 ];
 
+export const aboutMeArray = [
+    {
+        year: "2008",
+        text: "Wrote my first ever program in QBASIC. I was 13.",
+        image: qbasic,
+        shouldRotate: true,
+    },
+    {
+        year: "2009",
+        text: "Got into ethical hacking just for the fun of hacking my friend's email and social media accounts. No harm was caused, so they didn’t mind.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2010",
+        text: "3 year long hiatus from programming begins.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2013",
+        text: "Got back into programming. Started with C and fell in love with the power of C++",
+        image: cpp,
+        shouldRotate: true,
+    },
+    {
+        year: "2014",
+        text: "Started my software engineering bachelors from the Nottingham Trent University, UK.",
+        image: ntu,
+        shouldRotate: false,
+    },
+    {
+        year: "2015",
+        text: "Created a physics engine for simulating oscillations in C++ using the SDL library for graphics.",
+        image: sdl,
+        shouldRotate: true,
+    },
+    {
+        year: "2016",
+        text: "Made my first ever production ready website in plain HTML/CSS.",
+        image: htmlcss,
+        shouldRotate: false,
+    },
+    {
+        year: "2016",
+        text: "Became an unofficial java teaching assistant in my class.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2016",
+        text: "Created my first ever QT project. (I know, people don’t use it much. But I think that it’s under-appreciated)\n",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2017",
+        text: "Wrote my first ever android app.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2017",
+        text: "Created a mathematical symbolic computational engine in java.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2017",
+        text: "Graduated!",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2017",
+        text: "Started working for a product based startup, Telyport in Bengaluru.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2017",
+        text: "Switched to a service based company where I worked on literally numerous projects. I really can’t recall the exact number of projects that I had worked on. Let’s assume that ‘a lot’ is a number.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2018",
+        text: "Got promoted. Became the head of development. Lead the development of iOS, Android, Frontend and Backend projects.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2019",
+        text: "Left my job to start freelancing. #Excitement",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2019",
+        text: "Got the opportunity to work with clients from Norway, India, US. Best time of my life.",
+        image: null,
+        shouldRotate: false,
+    },
+    {
+        year: "2019",
+        text: "Started a UX programme at Humber College, Toronto.",
+        image: null,
+        shouldRotate: false,
+    },
+
+];
+
 export const aboutMe = "2008 - Wrote my first ever program in QBASIC. I was 13.\n" +
     "2009 - Got into ethical hacking just for the fun of hacking my friend's email and social media accounts. No harm was caused, so they didn’t mind.\n" +
-    "2010 - Lost all touch with programming for a while. I still regret this phase of my life.\n" +
+    "2010 - 3 year long hiatus from programming begins." +
     "2013 - Got back into programming. Started with C and fell in love with the power of C++.\n" +
     "2014 - Started my software engineering bachelors from the Nottingham Trent University, UK.\n" +
     "2015 - Created a physics engine for simulating oscillations in C++ using the SDL library for graphics.\n" +
@@ -113,8 +239,10 @@ export const aboutMe = "2008 - Wrote my first ever program in QBASIC. I was 13.\
     "2016 - Created my first ever QT project. (I know, people don’t use it much. But I think that it’s under-appreciated)\n" +
     "2017 - Wrote my first ever android app.\n" +
     "2017 - Created a mathematical symbolic computational engine in java.\n" +
-    "2017 - Graduated.\n" +
+    "2017 - Graduated!\n" +
     "2017 - Started working for a product based startup, Telyport in Bengaluru.\n" +
     "2018 - Switched to a service based company where I worked on literally numerous projects. I really can’t recall the exact number of projects that I had worked on. Let’s assume that ‘a lot’ is a number.\n" +
-    "2018 - Got promoted. Became the head of development.\n" +
-    "2019 - Left my job to start something of my own. Let’s see how it goes. #Excitement";
+    "2018 - Got promoted. Became the head of development. Lead the development of iOS, Android, Frontend and Backend projects.\n" +
+    "2019 - Left my job to start freelancing. #Excitement\n" +
+    "2019 - Got the opportunity to work with clients from Norway, India and the US. Best time of my life.\n" +
+    "2019 - Started a UX programme at Humber College, Toronto.";

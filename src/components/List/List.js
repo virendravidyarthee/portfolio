@@ -5,43 +5,27 @@ import './List.css'
 const List = (props) => {
     let data = props.dataSource;
     let items = data.map((value, index) => {
-        let contentClassName = "List-content-container";
-        let imageClassName = "List-image";
-        let separatorClassName = "Separator";
-        if (index % 2 === 0) {
-            contentClassName = "List-content-reversed";
-            imageClassName = "List-image-reversed";
-            separatorClassName = "Separator-reversed";
-        }
         return (
             <div
+                className="item-container"
                 key={index}
-                onClick={() =>{
+                onClick={() => {
                     props.onClickHandler(index)
                 }}>
-                <div className={separatorClassName}/>
-                <div className={contentClassName}>
-                    <img
-                        style={{
-                            minWidth:'180px',
-                            width:'180px'
-                        }}
-                        className={imageClassName}
-                        src={value.image}
-                        alt=""/>
-                    <div
-                        style={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'space-between',
-                            width:'100%'
-                        }}>
-                        <p style={{
-                            marginBottom: '0px',
-                            fontSize: '22px',
-                            textAlign:'center'
-                        }}>{value.projectName}</p>
-                        <p className={props.textClassName}>{value.shortDescription}</p>
+                <div/>
+                <div className="Separator"/>
+                <div>
+                    <p style={{
+                        marginBottom: '0px',
+                        fontSize: '22px',
+                        textAlign: 'center'
+                    }}>{value.projectName}</p>
+                    <div className='image-text-container'>
+                        <img
+                            className="List-image"
+                            src={value.cover}
+                            alt=""/>
+                        <p className="List-text">{value.shortDescription}</p>
                     </div>
                 </div>
             </div>

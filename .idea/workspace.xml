@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d2dd4c5-55c5-4cdf-ae29-32bf4bab7890" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/eeScreens/sc1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/eeScreens/sc2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/eeScreens/sc3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/eeScreens/sc4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/eecover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/idealCover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/idealScreens/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/idealScreens/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/idealScreens/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/otCover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/otScreens/sc1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/otScreens/sc2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/otScreens/sc3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutMeList/AboutList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutMeList/AboutList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/viren.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/viren.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BBAnimation/BBAnimation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BBAnimation/BBAnimation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/List.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/List.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/MyWork/MyWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MyWork/MyWork.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/MyWork/MyWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MyWork/MyWork.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Project/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Project/Project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Project/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/particles/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/particles/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +51,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>style=</find>
-      <find>Contact-me-content</find>
-      <find>scr</find>
-      <find>scro</find>
-      <find>justify</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,10 +68,23 @@
   <component name="ProjectId" id="1TkogbcNpDumbQCBNSxHSVhwZjt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Sumit's\Projects\JavaScript\Personal\portfolio\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sumit's\Projects\JavaScript\Personal\portfolio\src\assets\images" />
+      <recent name="D:\Sumit's\Projects\JavaScript\Personal\portfolio\src\assets\images\idealScreens" />
+      <recent name="D:\Sumit's\Projects\JavaScript\Personal\portfolio\src\assets\images\eeScreens" />
+      <recent name="D:\Sumit's\Projects\JavaScript\Personal\portfolio\src\assets\images\otScreens" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,7 +156,11 @@
       <workItem from="1566629984773" duration="706000" />
       <workItem from="1573599932986" duration="70000" />
       <workItem from="1573600064535" duration="42000" />
-      <workItem from="1574013598309" duration="785000" />
+      <workItem from="1574013598309" duration="1560000" />
+      <workItem from="1574031203053" duration="1301000" />
+      <workItem from="1574572948916" duration="24300000" />
+      <workItem from="1574736708118" duration="443000" />
+      <workItem from="1574742323133" duration="21119000" />
     </task>
     <servers />
   </component>
@@ -128,7 +172,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

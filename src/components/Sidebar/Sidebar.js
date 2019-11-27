@@ -25,7 +25,6 @@ class Sidebar extends Component {
                         this.props.history.push('/')
                     }}/>
                 <div className="Items-container">
-
                     <div
                         className="Item"
                         onClick={() => {

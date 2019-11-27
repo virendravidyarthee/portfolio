@@ -20,7 +20,6 @@ class MyWork extends Component {
                 overflowY:'scroll'
             }}>
                 <p className="Header">My Projects</p>
-
                 <div className="Sub-title">
                     <p>{myWorkSubtitle}</p>
                 </div>
@@ -31,7 +30,6 @@ class MyWork extends Component {
                     className="List-container"
                     dataSource={myWorkArray}
                     imgClassName="List-image"
-                    textClassName="List-text"
                     onClickHandler={this.onItemClick}
                 />
             </div>

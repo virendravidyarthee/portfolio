@@ -13,15 +13,16 @@ class Home extends Component {
                            params={particleParams}/>
                 <div className="Content-container">
                     <div>
-                        <p className="Name-header">Hi, I'm Virendra.</p>
+                        <p className="Name-header">Hi, I'm Virendra Vidyarthee.</p>
                         <p className="Sub-title-one">Android Enthusiast.</p>
                         <p className="Sub-title-two">Full stack developer.</p>
+                        <p className="Sub-title-two">UX Designer.</p>
                     </div>
                     <div className="Link-container">
                         <Link
                             to='/about-me'
                             className="My-work-link">
-                            <div className="Link-content">
+                            <div className="Link-content hvr-forward">
                                 <p>Get to know me</p>
                                 <img className="Right-arrow" src={arrow} alt=""/>
                             </div>
@@ -31,7 +32,7 @@ class Home extends Component {
                         <Link
                             to='/my-work'
                             className="My-work-link">
-                            <div className="Link-content">
+                            <div className="Link-content hvr-forward">
                                 <p>Checkout my work</p>
                                 <img className="Right-arrow" src={arrow} alt=""/>
                             </div>

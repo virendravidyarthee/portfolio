@@ -1,0 +1,47 @@
+.year-text-style {
+    font-size: 35px;
+}
+
+.text {
+    flex: 1;
+    font-size: 20px;
+}
+
+.image {
+    margin-right: 20px;
+    width: 100px;
+}
+
+.image-invisible {
+    margin-right: 20px;
+    transform: rotate(15deg);
+    width: 100px;
+    visibility: hidden;
+}
+
+.text-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 680px) {
+    .text {
+        font-size: 14px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .image {
+        margin-right: 5px;
+        width: 50px;
+    }
+
+    .image-invisible {
+        margin-left: 5px;
+        width: 50px;
+    }
+}
