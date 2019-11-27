@@ -5,7 +5,7 @@
   "homepage": "https://virendravidyathee.github.io/portfolio",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
