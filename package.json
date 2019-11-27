@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://virendravidyathee.github.io/portfolio",
+  "homepage": "https://virendravidyathee.github.io",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "gh-pages": "^2.1.1",
