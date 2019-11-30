@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>HTML Meta Tag</title>
-      <meta http-equiv = "refresh" content = "2; url = https://www.tutorialspoint.com" />
+      <title>Virendra Vidyarthee</title>
+      <meta http-equiv = "refresh" content = "2; url = https://virendravidyarthee.github.io/" />
    </head>
    <body>
-      <p>Hello HTML5!</p>
+      <p>Redirecting</p>
    </body>
 </html>
