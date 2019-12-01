@@ -12,12 +12,9 @@
 
 .List-image {
     height: 500px;
-    width: 500px;
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 50px;
-    max-width: 500px;
-    max-height: 500px;
 }
 
 .List-text {

@@ -4,12 +4,9 @@
 }
 
 .Content-container {
-    position: absolute;
-    top: 0;
-    left: 70px;
     height: 100%;
-    width: 100%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
 }
@@ -90,10 +87,10 @@
     }
 
     .Sub-title-two {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .Link-content {
-        font-size: 10px;
+        font-size: 12px;
     }
 }

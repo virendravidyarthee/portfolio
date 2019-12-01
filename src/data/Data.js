@@ -20,6 +20,9 @@ import idealScreen3 from "../assets/images/idealScreens/3.png"
 import eeCover from "../assets/images/eecover.png"
 import idealCover from "../assets/images/idealCover.png"
 import otCover from "../assets/images/otCover.png"
+import javaLogo from "../assets/images/javaLogo.png"
+import qtLogo from "../assets/images/qtLogo.png"
+import androidLogo from "../assets/images/androidLogo.png"
 
 const eeShortDescription = "ExtraaEdge is a leads management software which helps academic institutions boost their admissions. I had contributions towards their android app and built a lot of major feature sets like analytics, locations, adding of leads, lead info, etc.";
 // eslint-disable-next-line
@@ -36,15 +39,9 @@ const haritpathWebShortDescription = "Same as above but the web counterpart of t
 const idealShortDescription = "Ideal 10 is the study companion app published by ideal publications for their 10th standard students. This app makes their entire syllabus available to the mobile platform. Data is always updated as it fetched constantly from the web. Supports offline functionality as well.";
 
 export const myWorkSubtitle = "Working at a service based company allowed me to work on numerous projects. I’m not going to list all of them here, but I’ll list a few interesting/challenging ones. All of these are enterprise apps so they aren’t available to the general public and even if they are, the credentials to use them won’t be. But hey, if you can pull some strings with the right companies and have some time then feel free to run them on your own device.\n\n" +
-    "Here you can see that I do have experience with Android, Node and Angular projects. There’s one more project that you can look at apart from the ones listed below. That is the website that you’re currently browsing. It’s built with react and is fully responsive.\n\n" +
+    "There’s one more project that you can look at apart from the ones listed below. That is the website that you’re currently browsing. It’s built with react and is fully responsive.\n\n" +
     "Disclaimer: I developed these projects while working for a company, so I am in no way trying to say that I have full ownership (legally and ethically, I can’t say that) of the said projects. I am merely stating the fact that I have made contributions to these projects. Which is a fair point.\n" +
     "Most of the projects listed here are enterprise (some require a fee to get access to) apps and websites. If you want to gain access to or see a demo of the apps, you need to contact either me or one of these service providers.";
-
-export const projectFullDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id nunc sed diam varius feugiat. Suspendisse feugiat tincidunt elementum. Phasellus euismod, lorem in congue ultricies, quam nibh posuere quam, ut tristique enim justo vitae augue. Proin posuere aliquam metus sed aliquam. Quisque mauris metus, volutpat non lorem et, suscipit tempus leo. Ut accumsan, felis id elementum hendrerit, elit urna tempor tortor, ut semper turpis urna et tortor. Donec leo augue, ullamcorper sed luctus eget, convallis nec ex.\n" +
-    "\n" +
-    "Mauris vitae ante convallis, venenatis purus ultrices, interdum lectus. Quisque quis lacinia purus. Donec tincidunt, nunc a ultrices fermentum, tellus leo iaculis odio, at porttitor nunc neque sed justo. Mauris non dignissim lacus. Sed ut ultricies velit, eu pellentesque leo. Nullam in vestibulum lectus, in vulputate magna. Praesent non lacinia tortor. Phasellus aliquam nunc mattis nibh ornare, vel consequat augue imperdiet. Phasellus eleifend risus ligula, sit amet finibus sapien sollicitudin ac. Praesent id ornare est. Sed ullamcorper, tellus ac volutpat ultricies, odio dui sollicitudin justo, et pellentesque turpis leo a dolor. Pellentesque pulvinar orci dolor. Fusce ullamcorper sollicitudin maximus. Integer vel ex ante. Mauris pretium tortor eu purus rhoncus tincidunt.\n" +
-    "\n" +
-    "Donec feugiat nisi venenatis varius suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris egestas quam non mi luctus finibus. Vivamus molestie pulvinar quam, rhoncus consectetur tortor volutpat non. Nam consequat tellus sapien, ac convallis velit congue a. Suspendisse malesuada tellus a eros interdum, non tincidunt turpis rhoncus. In augue nisl, placerat a ligula vel, luctus rhoncus purus. Praesent non porttitor lorem, non volutpat est. Aenean rutrum lorem dui, ac rhoncus orci volutpat a. Sed commodo nisi vitae magna tincidunt, at feugiat magna pellentesque. Suspendisse egestas ante a risus condimentum varius. Donec cursus hendrerit est eget tristique. Nulla hendrerit mattis enim, vitae iaculis purus laoreet nec. Vestibulum consequat ac risus sed vestibulum.";
 
 const eeFullDescription = "There used to be a time when ExtraaEdge used to be available on the playstore but it has since been taken down as the owning company couldn’t successfully convince the playstore moderators as to why the app needed access to a user’s call logs and sms inbox. Which were unfortunately one of the app’s core features. The app is now being distributed via a custom website as a direct APK download.\n" +
     "ExtraaEdge is a lead management platform for very well known Institutions in India like IIT, Sinhgad, K11 and many more. Their platform is used by these institutions to maximise the transition of cold lead to hot leads and thus improving admission stats. The features provided by the platform are:\n" +
@@ -162,19 +159,19 @@ export const aboutMeArray = [
     {
         year: "2016",
         text: "Became an unofficial java teaching assistant in my class.",
-        image: null,
+        image: javaLogo,
         shouldRotate: false,
     },
     {
         year: "2016",
         text: "Created my first ever QT project. (I know, people don’t use it much. But I think that it’s under-appreciated)\n",
-        image: null,
+        image: qtLogo,
         shouldRotate: false,
     },
     {
         year: "2017",
         text: "Wrote my first ever android app.",
-        image: null,
+        image: androidLogo,
         shouldRotate: false,
     },
     {
@@ -185,7 +182,7 @@ export const aboutMeArray = [
     },
     {
         year: "2017",
-        text: "Graduated!",
+        text: "GRADUATED!",
         image: null,
         shouldRotate: false,
     },
