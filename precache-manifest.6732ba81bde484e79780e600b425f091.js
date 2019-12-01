@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "ec97df7dd43e1b9fa4a77a99f38e87cd",
-    "url": "/static/media/sc1.ec97df7d.png"
+    "revision": "fe16a5e2a87a2962e33e29db5ab24d72",
+    "url": "/static/media/sc2.fe16a5e2.png"
   },
   {
-    "revision": "fde430e1a712845249cd",
-    "url": "/static/css/main.74c4acba.chunk.css"
+    "revision": "925dac9f3c2c4555eb21",
+    "url": "/static/css/main.a74d82da.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "466e0ca0ba362d4a622b",
-    "url": "/static/js/2.466e0ca0.chunk.js"
+    "revision": "74a3914f88457bf72646",
+    "url": "/static/js/2.74a3914f.chunk.js"
   },
   {
     "revision": "64001615de0d430dd23d54af5f1e642b",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/static/media/video call.a2a8af3f.png"
   },
   {
-    "revision": "fde430e1a712845249cd",
-    "url": "/static/js/main.fde430e1.chunk.js"
+    "revision": "ec97df7dd43e1b9fa4a77a99f38e87cd",
+    "url": "/static/media/sc1.ec97df7d.png"
   },
   {
-    "revision": "fe16a5e2a87a2962e33e29db5ab24d72",
-    "url": "/static/media/sc2.fe16a5e2.png"
+    "revision": "925dac9f3c2c4555eb21",
+    "url": "/static/js/main.925dac9f.chunk.js"
   },
   {
     "revision": "38c4c621321d1319b942a64b0004bcdd",
@@ -100,6 +100,14 @@ self.__precacheManifest = [
     "url": "/static/media/otCover.54e08044.png"
   },
   {
+    "revision": "036666e5d23347e6cda251bebfedc1cb",
+    "url": "/static/media/javaLogo.036666e5.png"
+  },
+  {
+    "revision": "df2873f8e05047e41d0e0954bf545b46",
+    "url": "/static/media/androidLogo.df2873f8.png"
+  },
+  {
     "revision": "7bd46c22e4412ff658376f3f7694f3c2",
     "url": "/static/media/profile_circle.7bd46c22.png"
   },
@@ -116,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/gmail.2ad00102.png"
   },
   {
-    "revision": "f8df47c9e7cc2d10e2e348c69d2356cb",
+    "revision": "e9fe8f25160e05a7b57a491852b27988",
     "url": "/index.html"
   }
 ];
