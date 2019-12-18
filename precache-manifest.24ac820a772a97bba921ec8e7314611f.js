@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fe16a5e2a87a2962e33e29db5ab24d72",
-    "url": "/static/media/sc2.fe16a5e2.png"
+    "revision": "b634d280f42b04185deb7f4545dbd5f1",
+    "url": "/static/media/3.b634d280.png"
   },
   {
-    "revision": "6ae66040e71f3b21b4c6",
-    "url": "/static/css/main.a74d82da.chunk.css"
+    "revision": "45e08eafd0f3a2536c23",
+    "url": "/static/css/main.e5d9718a.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "74a3914f88457bf72646",
-    "url": "/static/js/2.74a3914f.chunk.js"
+    "revision": "ca9db9fac27bbc33b91c",
+    "url": "/static/js/2.ca9db9fa.chunk.js"
   },
   {
     "revision": "64001615de0d430dd23d54af5f1e642b",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/sc1.ec97df7d.png"
   },
   {
-    "revision": "6ae66040e71f3b21b4c6",
-    "url": "/static/js/main.6ae66040.chunk.js"
+    "revision": "fe16a5e2a87a2962e33e29db5ab24d72",
+    "url": "/static/media/sc2.fe16a5e2.png"
   },
   {
     "revision": "38c4c621321d1319b942a64b0004bcdd",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/static/media/2.a6202f6d.png"
   },
   {
-    "revision": "b634d280f42b04185deb7f4545dbd5f1",
-    "url": "/static/media/3.b634d280.png"
+    "revision": "45e08eafd0f3a2536c23",
+    "url": "/static/js/main.45e08eaf.chunk.js"
   },
   {
     "revision": "944760d573d6f0c6511501b21f1895e5",
@@ -108,6 +108,34 @@ self.__precacheManifest = [
     "url": "/static/media/androidLogo.df2873f8.png"
   },
   {
+    "revision": "352e146b33e7f6264bbe080db52617ef",
+    "url": "/static/media/dcsc1.352e146b.png"
+  },
+  {
+    "revision": "09ebda342b583596ad7ade7a1bd4b6bb",
+    "url": "/static/media/dcsc2.09ebda34.png"
+  },
+  {
+    "revision": "eab9efdea63c01b7f4dd1db6d9ff30e5",
+    "url": "/static/media/dcsc3.eab9efde.png"
+  },
+  {
+    "revision": "deb3b4963e06d2314fe53b37c04f8f88",
+    "url": "/static/media/dcsc4.deb3b496.png"
+  },
+  {
+    "revision": "3f0a32f3228af7841b6113e656b815b4",
+    "url": "/static/media/dcsc5.3f0a32f3.png"
+  },
+  {
+    "revision": "898f3f144ad85b56953010d5cf72fed2",
+    "url": "/static/media/dcCover.898f3f14.png"
+  },
+  {
+    "revision": "805eb67f75359cdb792074fb3a117b55",
+    "url": "/static/media/hcdLogo.805eb67f.png"
+  },
+  {
     "revision": "7bd46c22e4412ff658376f3f7694f3c2",
     "url": "/static/media/profile_circle.7bd46c22.png"
   },
@@ -124,7 +152,23 @@ self.__precacheManifest = [
     "url": "/static/media/gmail.2ad00102.png"
   },
   {
-    "revision": "5e1e1b06fa309351001b0c9420973e74",
+    "revision": "2b7a045aab60e85c0dee2383bf93db15",
+    "url": "/static/media/persona.2b7a045a.jpg"
+  },
+  {
+    "revision": "6c3a1966f69375231e23e79bf08fcdda",
+    "url": "/static/media/sketch.6c3a1966.jpg"
+  },
+  {
+    "revision": "a52a1ac86aa935ec38915aec2d3879a9",
+    "url": "/static/media/paperPrototype.a52a1ac8.jpg"
+  },
+  {
+    "revision": "6995e832d1453d54a6410a8b70e3d97b",
+    "url": "/static/media/lofi.6995e832.jpg"
+  },
+  {
+    "revision": "9a38ab959b7134232c0b83a6b32f311c",
     "url": "/index.html"
   }
 ];
