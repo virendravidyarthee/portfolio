@@ -9,7 +9,11 @@ class MyWork extends Component {
 
 
     onItemClick = (index: Number) => {
-        this.props.history.push('/project/' + index)
+        if(index === 3){
+            this.props.history.push('/hcd')
+        }else {
+            this.props.history.push('/project/' + index)
+        }
     };
 
     render() {

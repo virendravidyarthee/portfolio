@@ -8,6 +8,7 @@ import Project from "./containers/Project/Project";
 import AboutMe from "./containers/AboutMe/AboutMe";
 import Sidebar from "./components/Sidebar/Sidebar";
 import ContactMe from "./containers/ContactMe/ContactMe";
+import HcdProject from "./containers/HcdProject/HcdProject";
 
 class App extends Component {
 
@@ -28,6 +29,7 @@ class App extends Component {
                         <Route path='/project/:id' exact component={Project}/>
                         <Route path='/about-me' exact component={AboutMe}/>
                         <Route path='/contact-me' exact component={ContactMe}/>
+                        <Route path='/hcd' exact component={HcdProject}/>
                     </div>
                 </div>
             </HashRouter>
