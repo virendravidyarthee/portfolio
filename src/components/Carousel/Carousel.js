@@ -10,7 +10,7 @@ const Carousel = (props) => {
                 <img src={value}
                      alt=""
                      style={{
-                         width: '355px',
+                         minWidth: '355px',
                          height: 'auto',
                          maxHeight: '700px',
                          margin: 'auto'

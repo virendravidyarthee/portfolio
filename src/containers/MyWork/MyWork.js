@@ -8,12 +8,8 @@ let myWorkArray = require("../../data/Data.js").myWorkArray;
 class MyWork extends Component {
 
 
-    onItemClick = (index: Number) => {
-        if(index === 3){
-            this.props.history.push('/hcd')
-        }else {
-            this.props.history.push('/project/' + index)
-        }
+    onItemClick = (index) => {
+        this.props.history.push('/project/' + index)
     };
 
     render() {

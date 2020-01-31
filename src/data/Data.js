@@ -23,13 +23,9 @@ import otCover from "../assets/images/otCover.png"
 import javaLogo from "../assets/images/javaLogo.png"
 import qtLogo from "../assets/images/qtLogo.png"
 import androidLogo from "../assets/images/androidLogo.png"
-import dcsc1 from "../assets/images/dcsc1.png"
-import dcsc2 from "../assets/images/dcsc2.png"
-import dcsc3 from "../assets/images/dcsc3.png"
-import dcsc4 from "../assets/images/dcsc4.png"
-import dcsc5 from "../assets/images/dcsc5.png"
-import dcCover from "../assets/images/dcCover.png"
-import hcdLogo from "../assets/images/hcdLogo.png"
+import virAr from "../assets/images/vir_ar.gif"
+import arCover from "../assets/images/arcore_arkit.jpeg"
+import arLogo from "../assets/images/arLogo.png"
 
 const eeShortDescription = "ExtraaEdge is a leads management software which helps academic institutions boost their admissions. I had contributions towards their android app and built a lot of major feature sets like analytics, locations, adding of leads, lead info, etc.";
 // eslint-disable-next-line
@@ -48,7 +44,9 @@ const haritpathWebShortDescription = "Same as above but the web counterpart of t
 
 const idealShortDescription = "Ideal 10 is the study companion app published by ideal publications for their 10th standard students. This app makes their entire syllabus available to the mobile platform. Data is always updated as it fetched constantly from the web. Supports offline functionality as well.";
 
-const hcdShortDescription = "Diabetes check was a UX case study run at Humber college in a team setting with the intent to understand and address the needs of diabetics around the world and to make their lives easier through tech.";
+const arShortDescription = "Just some personal experiments with AR. Because AR has a lot potential for applications. Do check out."
+
+const arFullDescription = "I’ve always been pretty interested in trying things out with AR. So here are some experiments. They’re all completely cross platform (iOS and Android). Pretty satisfying stuff."
 
 export const myWorkSubtitle = "Working at a service based company allowed me to work on numerous projects. I’m not going to list all of them here, but I’ll list a few interesting/challenging ones. All of these are enterprise apps so they aren’t available to the general public and even if they are, the credentials to use them won’t be. But hey, if you can pull some strings with the right companies and have some time then feel free to run them on your own device.\n\n" +
     "There’s one more project that you can look at apart from the ones listed below. That is the website that you’re currently browsing. It’s built with react and is fully responsive.\n\n" +
@@ -93,6 +91,15 @@ const haritpathWebFullDescription = "Harithpath web is the web counterpart of th
 
 export const myWorkArray = [
     {
+        projectName: "AR experiments",
+        image: arLogo,
+        shortDescription: arShortDescription,
+        fullDescription: arFullDescription,
+        siteLink: '/',
+        images: [virAr,],
+        cover: arCover
+    },
+    {
         projectName: "ExtraaEdge",
         image: eeLogo,
         shortDescription: eeShortDescription,
@@ -121,18 +128,6 @@ export const myWorkArray = [
         images: [idealScreen1, idealScreen2, idealScreen3],
         cover: idealCover
     },
-    {
-        projectName: "Diabetes Check - UX study",
-        image: hcdLogo,
-        shortDescription: hcdShortDescription,
-        fullDescription: null,
-        siteLink: null,
-        appLink: null,
-        images: [dcsc1, dcsc2, dcsc3, dcsc4, dcsc5],
-        cover: dcCover
-    }
-
-
 ];
 
 export const aboutMeArray = [
