@@ -21,15 +21,6 @@ class Project extends Component {
                         rel="noopener noreferrer"
                         className="Link">App link</a>
                 )
-            } else if (project.appLink == null) {
-                externalLinks.push(
-                    //eslint-disable-next-line
-                    <a
-                        href=""
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="Link">Coming soon to android.</a>
-                )
             }
             if (project.siteLink != null) {
                 externalLinks.push(
