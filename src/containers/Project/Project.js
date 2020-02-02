@@ -21,7 +21,7 @@ class Project extends Component {
                         rel="noopener noreferrer"
                         className="Link">App link</a>
                 )
-            } else if (project.appLink == null && project.projectName.toLowerCase() === 'bolo.global') {
+            } else if (project.appLink == null) {
                 externalLinks.push(
                     //eslint-disable-next-line
                     <a

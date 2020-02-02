@@ -36,7 +36,7 @@ const boloGlobalShortDescription = "Bolo.Global is a video calling platform for 
 const boloGlobalFullDescription = "bolo.global is webRTC based video calling app made for conducting video interviews. I was working closely with Office Troops, the company behind the OfficeTroops recruitment analytics platform.\n" +
     "Their use case was very unique as they wanted group video calling along with video recordings. We achieved this using a webRTC plugin along with some clever backend and UX magic.\n" +
     "I worked on the app’s UX design and implementation.\n" +
-    "The app is set to be launched in India, Singapore and the US.\n";
+    "The app is set to be launched in India, Singapore, South America and the US.\n";
 // eslint-disable-next-line
 const haritpathMobileShortDescription = "Haritpath is a firm which handles the maintenance and survey of all the trees planted around highways. The haritpath mobile app lets their surveyors create a digital tree log along with location and photographic data and lets them upload it all to a dedicated server. ";
 // eslint-disable-next-line
@@ -115,6 +115,7 @@ export const myWorkArray = [
         shortDescription: boloGlobalShortDescription,
         fullDescription: boloGlobalFullDescription,
         siteLink: 'https://www.officetroops.com/',
+        appLink: 'https://play.google.com/store/apps/details?id=com.officetroops.bologlobal',
         images: [otScreen4, otScreen3, otScreen1, otScreen2],
         cover: otCover
     },
