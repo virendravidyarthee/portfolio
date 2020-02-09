@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { Redirect } from 'react-router-dom'
+
 import './Project.css'
 import Carousel from "../../components/Carousel/Carousel";
 
@@ -9,6 +11,9 @@ class Project extends Component {
 
 
     render() {
+        if(parseInt(this.props.match.params.id)+1 > myWorkArray.length){
+            return <Redirect to='/404' />
+        }
         const project = myWorkArray[this.props.match.params.id];
 
         const links = () => {
