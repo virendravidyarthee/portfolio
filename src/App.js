@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from "./containers/Home/Home";
 import MyWork from "./containers/MyWork/MyWork"
-import { HashRouter, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import Project from "./containers/Project/Project";
 import AboutMe from "./containers/AboutMe/AboutMe";
 import Sidebar from "./components/Sidebar/Sidebar";
@@ -18,7 +18,7 @@ class App extends Component {
 
     render() {
         return (
-            <HashRouter>
+            <BrowserRouter>
                 <div className="App">
                     <div className="Sidebar">
                         <Route path='/' component={Sidebar} />
@@ -36,7 +36,7 @@ class App extends Component {
                         </Switch>
                     </div>
                 </div>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }
