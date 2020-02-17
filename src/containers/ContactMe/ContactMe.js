@@ -8,6 +8,9 @@ import logo from "../../assets/images/logo.png";
 
 class ContactMe extends Component {
 
+    componentDidMount(){
+        document.title = 'Virendra Vidyarthee: Contact me'
+    }
 
     render() {
         return (

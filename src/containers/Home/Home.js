@@ -6,6 +6,9 @@ import particleParams from "../../utils/particles/config";
 import {Link} from 'react-router-dom'
 
 class Home extends Component {
+    componentDidMount() {
+        document.title = "Virendra Vidyarthee"
+    }
     render() {
         return (
             <div className="Home">

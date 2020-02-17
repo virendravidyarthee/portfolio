@@ -6,7 +6,9 @@ import List from "../../components/List/List";
 let myWorkArray = require("../../data/Data.js").myWorkArray;
 
 class MyWork extends Component {
-
+    componentDidMount(){
+        document.title = 'Virendra Vidyarthee: My work'
+    }
 
     onItemClick = (index) => {
         this.props.history.push('/project/' + index)

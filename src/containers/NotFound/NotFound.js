@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './NotFound.scss'
 
 class NotFound extends Component {
+    componentDidMount(){
+        document.title = 'What were you looking for?'
+    }
     render() {
         return (
             <div className="container">

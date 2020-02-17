@@ -8,6 +8,9 @@ import AboutList from "../../components/AboutMeList/AboutList";
 import {aboutMeArray} from "../../data/Data";
 
 class AboutMe extends Component {
+    componentDidMount(){
+        document.title = 'Virendra Vidyarthee: About me'
+    }
     render() {
         return (
             <div className="Container">
