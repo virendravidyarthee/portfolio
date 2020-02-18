@@ -48,8 +48,6 @@
     top: 0;
     opacity: 0;
     white-space: nowrap;
-    font-family: Lato, sans-serif;
-
 }
 
 .Item-text{
@@ -58,11 +56,9 @@
     font-size: 10px;
     z-index: 1;
     top: 0;
-    left: -10px;
+    left: -14px;
     opacity: 0;
     white-space: nowrap;
-    font-family: Lato, sans-serif;
-
 }
 
 .Logo{

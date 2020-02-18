@@ -56,7 +56,10 @@ class Sidebar extends Component {
                             className="Item-image"
                             src={work}
                             alt=""/>
-                        <p className="Item-text">My work</p>
+                        <p className="Item-text"
+                        style={{
+                            marginLeft: '5px'
+                        }}>My work</p>
                     </div>
                     <div
                         className="Item"

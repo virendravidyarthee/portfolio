@@ -18,10 +18,14 @@
     margin: 20px;
 }
 
+
 .Sub-title-one {
     text-align: center;
     font-size: 25px;
     margin: 10px;
+    height: 30px;
+    color: white;
+
 }
 
 .Sub-title-two {

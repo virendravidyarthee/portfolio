@@ -4,6 +4,7 @@ import './Home.css'
 import arrow from '../../assets/images/arrow_right.png'
 import particleParams from "../../utils/particles/config";
 import {Link} from 'react-router-dom'
+import Typing from 'react-typing-animation';
 
 class Home extends Component {
     componentDidMount() {
@@ -17,9 +18,21 @@ class Home extends Component {
                 <div className="Content-container">
                     <div>
                         <p className="Name-header">Hi, I'm Virendra Vidyarthee.</p>
-                        <p className="Sub-title-one">Android Enthusiast.</p>
-                        <p className="Sub-title-two">Full stack developer.</p>
-                        <p className="Sub-title-two">UX Designer.</p>
+                    </div>
+                    <div>
+                    <Typing loop={true} 
+                        className="Sub-title-one">
+                            <span>Android Enthusiast.</span>
+                            <Typing.Delay ms={2000} />
+                            <Typing.Backspace count={19} />
+                            <span>iOS developer.</span>
+                            <Typing.Delay ms={2000} />
+                            <Typing.Backspace count={14} />
+                            <span>Full stack developer.</span>
+                            <Typing.Delay ms={2000} />
+                            <Typing.Backspace count={21} />
+                            <Typing.Reset />
+                    </Typing>
                     </div>
                     <div className="Link-container">
                         <Link

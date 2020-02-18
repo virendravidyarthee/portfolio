@@ -5,7 +5,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-    font-family: Lato, serif;
     overflow-y: scroll;
 }
 
