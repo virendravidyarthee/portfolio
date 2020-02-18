@@ -22,6 +22,7 @@ class Home extends Component {
                     <div>
                     <Typing loop={true} 
                         className="Sub-title-one">
+                            <Typing.Delay ms={1000} />
                             <span>Android Enthusiast.</span>
                             <Typing.Delay ms={2000} />
                             <Typing.Backspace count={19} />
@@ -31,6 +32,9 @@ class Home extends Component {
                             <span>Full stack developer.</span>
                             <Typing.Delay ms={2000} />
                             <Typing.Backspace count={21} />
+                            <span>Software Engineer.</span>
+                            <Typing.Delay ms={2000} />
+                            <Typing.Backspace count={18} />
                             <Typing.Reset />
                     </Typing>
                     </div>

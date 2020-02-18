@@ -234,13 +234,6 @@ export const aboutMeArray = [
         image: null,
         shouldRotate: false,
     },
-    {
-        year: "2019",
-        text: "Started a UX programme at Humber College, Toronto.",
-        image: null,
-        shouldRotate: false,
-    },
-
 ];
 
 export const aboutMe = "2008 - Wrote my first ever program in QBASIC. I was 13.\n" +
@@ -259,5 +252,4 @@ export const aboutMe = "2008 - Wrote my first ever program in QBASIC. I was 13.\
     "2018 - Switched to a service based company where I worked on literally numerous projects. I really can’t recall the exact number of projects that I had worked on. Let’s assume that ‘a lot’ is a number.\n" +
     "2018 - Got promoted. Became the head of development. Lead the development of iOS, Android, Frontend and Backend projects.\n" +
     "2019 - Left my job to start freelancing. #Excitement\n" +
-    "2019 - Got the opportunity to work with clients from Norway, India and the US. Best time of my life.\n" +
-    "2019 - Started a UX programme at Humber College, Toronto.";
+    "2019 - Got the opportunity to work with clients from Norway, India and the US. Best time of my life.";

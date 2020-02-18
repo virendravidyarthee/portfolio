@@ -55,7 +55,7 @@ const particleParams = {
         },
         "move": {
             "enable": true,
-            "speed": 2.5,
+            "speed": 1.5,
             "direction": "none",
             "random": false,
             "straight": false,
