@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5696f9e01569b79586e5a2630d2f768",
+    "revision": "c99b807a0403621527468a74e63630db",
     "url": "https://virendravidyarthee.com/index.html"
   },
   {
-    "revision": "6985f6e44018c3758050",
+    "revision": "71b3c9877a6cb92bdfd6",
     "url": "https://virendravidyarthee.com/static/css/main.caa8e386.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://virendravidyarthee.com/static/js/2.385bdc21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6985f6e44018c3758050",
-    "url": "https://virendravidyarthee.com/static/js/main.b7e51605.chunk.js"
+    "revision": "71b3c9877a6cb92bdfd6",
+    "url": "https://virendravidyarthee.com/static/js/main.d68e9e5e.chunk.js"
   },
   {
     "revision": "49eaa01dbed1b7276c5d",
