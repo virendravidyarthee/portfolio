@@ -10,11 +10,15 @@ let myWorkArray = require("../../data/Data.js").myWorkArray;
 class Project extends Component {
 
     componentDidMount(){
-        document.title = `Virendra Vidyarthee: ${myWorkArray[this.props.match.params.id].projectName}`
+        if(parseInt(this.props.match.params.id)+1 < myWorkArray.length){
+            document.title = `Virendra Vidyarthee: ${myWorkArray[this.props.match.params.id].projectName}`
+        }
     }
 
     render() {
         if(parseInt(this.props.match.params.id)+1 > myWorkArray.length){
+            console.log("Redirecting");
+            
             return <Redirect to='/404' />
         }
         const project = myWorkArray[this.props.match.params.id];

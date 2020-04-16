@@ -50,7 +50,9 @@ class ContactMe extends Component {
                                 src={githubLogo}
                                 alt=""/></a>
                         <a
-                            href="mailto:virendravidyarthee@gmail.com">
+                            href="mailto:virendra@virendravidyarthee.com"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             <img
                                 style={{
                                     width: '32px',
