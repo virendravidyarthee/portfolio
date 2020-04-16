@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "https://virendravidyarthee.com/static/css/main.caa8e386.chunk.css",
-    "main.js": "https://virendravidyarthee.com/static/js/main.76ad80ee.chunk.js",
-    "main.js.map": "https://virendravidyarthee.com/static/js/main.76ad80ee.chunk.js.map",
+    "main.js": "https://virendravidyarthee.com/static/js/main.b7e51605.chunk.js",
+    "main.js.map": "https://virendravidyarthee.com/static/js/main.b7e51605.chunk.js.map",
     "runtime-main.js": "https://virendravidyarthee.com/static/js/runtime-main.37b3ba01.js",
     "runtime-main.js.map": "https://virendravidyarthee.com/static/js/runtime-main.37b3ba01.js.map",
-    "static/js/2.ba249290.chunk.js": "https://virendravidyarthee.com/static/js/2.ba249290.chunk.js",
-    "static/js/2.ba249290.chunk.js.map": "https://virendravidyarthee.com/static/js/2.ba249290.chunk.js.map",
+    "static/js/2.385bdc21.chunk.js": "https://virendravidyarthee.com/static/js/2.385bdc21.chunk.js",
+    "static/js/2.385bdc21.chunk.js.map": "https://virendravidyarthee.com/static/js/2.385bdc21.chunk.js.map",
     "index.html": "https://virendravidyarthee.com/index.html",
-    "precache-manifest.aa63c5e72a4042e6435939a24b1c85a7.js": "https://virendravidyarthee.com/precache-manifest.aa63c5e72a4042e6435939a24b1c85a7.js",
+    "precache-manifest.bf55d7d8ac6a189787093903268ceeb2.js": "https://virendravidyarthee.com/precache-manifest.bf55d7d8ac6a189787093903268ceeb2.js",
     "service-worker.js": "https://virendravidyarthee.com/service-worker.js",
     "static/css/main.caa8e386.chunk.css.map": "https://virendravidyarthee.com/static/css/main.caa8e386.chunk.css.map",
-    "static/js/2.ba249290.chunk.js.LICENSE.txt": "https://virendravidyarthee.com/static/js/2.ba249290.chunk.js.LICENSE.txt",
+    "static/js/2.385bdc21.chunk.js.LICENSE.txt": "https://virendravidyarthee.com/static/js/2.385bdc21.chunk.js.LICENSE.txt",
     "static/media/1.png": "https://virendravidyarthee.com/static/media/1.6cd30000.png",
     "static/media/2.png": "https://virendravidyarthee.com/static/media/2.a6202f6d.png",
     "static/media/3.png": "https://virendravidyarthee.com/static/media/3.b634d280.png",
@@ -42,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.37b3ba01.js",
-    "static/js/2.ba249290.chunk.js",
+    "static/js/2.385bdc21.chunk.js",
     "static/css/main.caa8e386.chunk.css",
-    "static/js/main.76ad80ee.chunk.js"
+    "static/js/main.b7e51605.chunk.js"
   ]
 }
