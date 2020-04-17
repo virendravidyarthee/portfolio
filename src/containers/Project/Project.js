@@ -17,8 +17,6 @@ class Project extends Component {
 
     render() {
         if(parseInt(this.props.match.params.id)+1 > myWorkArray.length){
-            console.log("Redirecting");
-            
             return <Redirect to='/404' />
         }
         const project = myWorkArray[this.props.match.params.id];
