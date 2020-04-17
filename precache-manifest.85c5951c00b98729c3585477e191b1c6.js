@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f807c6d3d845e0a0361a5873963de37",
+    "revision": "f0af697d50942d28e4af1082790884f8",
     "url": "https://virendravidyarthee.com/index.html"
   },
   {
-    "revision": "a512405963459868b4da",
+    "revision": "3923cc8e055be1306348",
     "url": "https://virendravidyarthee.com/static/css/main.00eccfcb.chunk.css"
   },
   {
-    "revision": "25f8ed4fa345d2fe3d96",
-    "url": "https://virendravidyarthee.com/static/js/2.bcf923b5.chunk.js"
+    "revision": "2c78bd3c7f578dedd94f",
+    "url": "https://virendravidyarthee.com/static/js/2.82525627.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "https://virendravidyarthee.com/static/js/2.bcf923b5.chunk.js.LICENSE.txt"
+    "url": "https://virendravidyarthee.com/static/js/2.82525627.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a512405963459868b4da",
-    "url": "https://virendravidyarthee.com/static/js/main.1f116f3d.chunk.js"
+    "revision": "3923cc8e055be1306348",
+    "url": "https://virendravidyarthee.com/static/js/main.d9f01d7c.chunk.js"
   },
   {
     "revision": "ceefef7e8f0d997e4db3",
