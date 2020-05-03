@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from "./containers/Home/Home";
 import MyWork from "./containers/MyWork/MyWork"
-import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import Project from "./containers/Project/Project";
 import AboutMe from "./containers/AboutMe/AboutMe";
 import Sidebar from "./components/Sidebar/Sidebar";
