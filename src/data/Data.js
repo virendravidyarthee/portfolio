@@ -182,7 +182,7 @@ export const aboutMeArray = [
     },
     {
         year: "2016",
-        text: "Created my first ever QT project. (I know, people don’t use it much. But I think that it’s under-appreciated)\n",
+        text: "Created my first ever QT project.",
         image: qtLogo,
         shouldRotate: false,
     },
