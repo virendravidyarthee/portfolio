@@ -1,35 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="google-site-verification" content="XUCtldpkHrg7VEyFmo6SlczVpwENEJ9MiIrzWxtW320" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
-    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="css/hover.css" rel="stylesheet" media="all">
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="#000000" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karmanye Vadhikaraste</title>
+    <!-- Link to Google Fonts for Noto Sans Devanagari -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for body and centering */
+        body {
+            font-family: 'Noto Sans Devanagari', sans-serif; /* Prioritize Devanagari font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+            margin: 0;
+            background-color: #f0f4f8; /* Light background */
+            color: #2d3748; /* Dark text for contrast */
+            padding: 20px; /* Add some padding around the content */
+            box-sizing: border-box; /* Include padding in element's total width and height */
+        }
 
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        .shloka-container {
+            max-width: 600px; /* Limit width for better readability */
+            text-align: center;
+            background-color: #ffffff; /* White background for the content box */
+            padding: 40px;
+            border-radius: 12px; /* Rounded corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
 
-    <title>Virendra Vidyarthee</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162083533-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        .shloka-text {
+            font-size: 2.2rem; /* Large font size for the shloka */
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-weight: 700; /* Bold for emphasis */
+            color: #4a5568; /* Slightly lighter text color */
+        }
 
-  gtag('config', 'UA-162083533-2');
-</script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-  </body>
+        .shloka-translation {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #718096; /* Muted color for translation */
+            font-weight: 400; /* Regular weight for translation */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .shloka-container {
+                padding: 30px;
+            }
+            .shloka-text {
+                font-size: 1.8rem;
+            }
+            .shloka-translation {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .shloka-container {
+                padding: 20px;
+                margin: 10px; /* Add margin for very small screens */
+            }
+            .shloka-text {
+                font-size: 1.5rem;
+            }
+            .shloka-translation {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="shloka-container">
+        <!-- Shloka in Devanagari -->
+        <p class="shloka-text">
+            कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।<br>
+            मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥
+        </p>
+        <!-- English Translation -->
+        <p class="shloka-translation">
+            You have a right to perform your prescribed duties, but you are not entitled to the fruits of action.<br>
+            Never consider yourself the cause of the results of your activities, and never be attached to not performing your duty.
+        </p>
+    </div>
+</body>
 </html>
